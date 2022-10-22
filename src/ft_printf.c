@@ -6,7 +6,7 @@
 /*   By: etomiyos <etomiyos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/13 19:57:26 by etomiyos          #+#    #+#             */
-/*   Updated: 2022/06/27 19:20:21 by etomiyos         ###   ########.fr       */
+/*   Updated: 2022/10/22 20:42:56 by etomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	check_char(const char *s, va_list ptr)
 		}
 		if (s[i] && s[i] != '%')
 		{
-			ft_writechar(s[i++], 1);
+			ft_writechar(s[i++]);
 			len++;
 		}
 		var += count;
